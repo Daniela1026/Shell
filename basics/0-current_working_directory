@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 pwd
+=======
+#!/bin/bash
+$ wc -l file
+$ wc -l file
+>>>>>>> d60eb4f358ea26e1b25eb9de55371158f0b28da8
