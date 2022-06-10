@@ -3,11 +3,12 @@
 cont=1
 while [[ $cont -le 10 ]]
 do
-    echo "Best School"
 if [[ $cont -eq 4 ]]; then
     echo "bad luck"
 elif [[ $cont -eq 8 ]]; then
     echo "good luck"
+else
+    echo "Best School"
     fi
     cont=$(( cont + 1 ))
 done
