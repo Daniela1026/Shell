@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-cont=0
+cont=1
 term=10
 until [ $term -lt $cont ]
 do
