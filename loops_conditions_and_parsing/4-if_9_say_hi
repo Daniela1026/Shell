@@ -2,10 +2,10 @@
 # This script is displaying "Best School" 10 times
 
 cont=1
-while [ $cont -le 10 ]
+while [[ $cont -le 10 ]]
 do
     echo "Best School"
-if [[ $cont -eq 10 ]]; then
+if [[ $cont -eq 9 ]]; then
     echo "Hi"
     fi
     cont=$(( cont + 1 ))
