@@ -7,7 +7,7 @@
 cont=1
 while [ $cont -le 100 ];
 do
-if [ $((cont%3)) == 0 -a $((cont%5)) == 0 ]
+if [ $((cont%15)) == 0 ] 
 then
     echo "FizzBuzz"
 elif [ $((cont%3)) == 0 ]
