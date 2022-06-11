@@ -4,17 +4,17 @@
 File=school
 if [ -e $File ];
 then    
-    echo "$File school file exists"
+    echo "$File file exists"
     if [ -s $File ];
     then
-	echo "$File school file is not empty"
+	echo "$File file is not empty"
     else
-	echo "$File school file is empty"
+	echo "$File file is empty"
     fi
     if [ -f $File ];
     then	
-	echo "$File school is a regular file"
+	echo "$File is a regular file"
     fi
 else
-    echo "$File school file does not exist"
+    echo "$File file does not exist"
 fi
