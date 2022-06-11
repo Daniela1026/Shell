@@ -9,8 +9,8 @@ do
 while [ $min -lt 60 ];
 do
     echo $min
-    let min+=1
+    min=$(( min + 1 ))
 done
     let min=1 
-    let hour+=1
+    hour=$(( hour + 1 ))
 done
