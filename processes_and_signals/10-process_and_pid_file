@@ -13,6 +13,6 @@ function script() {
 trap "echo I hate the kill command;script" SIGTERM
 trap "echo Y U no love me?!;script" SIGINT
 echo $$ >> /var/run/myscript.pid
-while [ true ]; do
+while true; do
     echo To infinity and beyond;
 done
